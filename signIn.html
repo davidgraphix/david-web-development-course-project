@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up | Sign-In</title>
+    <link rel="stylesheet" href=".//Styles/signIn.css">
+</head>
+<body>
+<div class="container" id="container">
+    <div class="form-container sign-up-container">
+        <form action="#">
+            <h1>Create an Account to Get Started!</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>Enter your details</span>
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="email" placeholder="Phone Number" required />
+            <input type="password" placeholder="Password" required />
+            <a href="https://www.w3schools.com/"><button>Sign Up...</button></a>
+        </form>
+    </div>
+    <div class="form-container sign-in-container">
+        <form action="#">
+            <h1>Sign in</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>login here</span>
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
+            <a href="https://www.w3schools.com/"><button>Sign In...</button></a>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-right">
+                <h1>Hello, Friend!</h1>
+                <p>To Continue your Coding Journey please login with your personal info</p>
+                <br>
+                <br>
+                or create a new account.
+                <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+
+            <div class="overlay-panel overlay-left">
+                <h1>Welcome Back!</h1>
+                <p>Enter your personal details to start Your Coding journey with us.</p>
+                <br>
+                <br>
+                already have an account?
+                <button class="ghost" id="signIn">Sign In</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src=".//Js/signUp.js"></script>
+</html>
+
